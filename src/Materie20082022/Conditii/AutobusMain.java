@@ -2,7 +2,7 @@ package Materie20082022.Conditii;
 
 public class AutobusMain {
     public static void main(String[] args) {
-        Autobus a = new Autobus(7,3);
+        Autobus a = new Autobus(7, 3);
         System.out.println(a.lungime);
         System.out.println(a.pret);
 

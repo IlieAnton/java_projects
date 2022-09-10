@@ -9,10 +9,10 @@ public class Elev {
     String clasa;
     ArrayList<Nota> note = new ArrayList<>();
 
-    public Elev (String nume, String prenume, int varsta, String clasa) {
+    public Elev(String nume, String prenume, int varsta, String clasa) {
         this.nume = nume;
         this.prenume = prenume;
         this.varsta = varsta;
         this.clasa = clasa;
     }
-    }
+}

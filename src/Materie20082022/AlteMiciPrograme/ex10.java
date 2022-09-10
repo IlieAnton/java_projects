@@ -7,11 +7,11 @@ public class ex10 {
 
         Scanner scanner = new Scanner(System.in);
         int nr = scanner.nextInt();
-        int nr1 = nr %10;
+        int nr1 = nr % 10;
 
-        nr = nr /10;
-        int nr2 = nr %10;
-        int nr3 = nr /10;
+        nr = nr / 10;
+        int nr2 = nr % 10;
+        int nr3 = nr / 10;
         System.out.println(nr1);
         System.out.println(nr2);
         System.out.println(nr3);

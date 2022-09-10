@@ -5,8 +5,8 @@ public class isEmpty {
         String a = " ";
         if (a.isEmpty()) {
             System.out.println(" Este gol");
-        //    Boolean aisEmpty = a.isEmpty();
-        }else {
+            //    Boolean aisEmpty = a.isEmpty();
+        } else {
             System.out.println("Nu este gol");
         }
     }

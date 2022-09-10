@@ -5,7 +5,7 @@ public class contains {
         String a = "Eu detin mere";
         if (a.contains("am")) {
             System.out.println("Da, contine");
-        }else {
+        } else {
             System.out.println("Nu, nu contine");
         }
     }

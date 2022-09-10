@@ -5,9 +5,9 @@ import java.util.Random;
 public class Ganditrobot {
     public static void main(String[] args) {
         int a = 7;
-        String subiecte[] = {"Habarnam", "Gogoasa", "Stietot", "Limonada"};
-        String predicate[] = {"merge", "sare", "vorbeste", "mananca"};
-        String Cuvinte[] = {"repede", "fericit", "plictisit"};
+        String[] subiecte = {"Habarnam", "Gogoasa", "Stietot", "Limonada"};
+        String[] predicate = {"merge", "sare", "vorbeste", "mananca"};
+        String[] Cuvinte = {"repede", "fericit", "plictisit"};
         int clen = Cuvinte.length;
         int slen = subiecte.length;
         int blen = predicate.length;

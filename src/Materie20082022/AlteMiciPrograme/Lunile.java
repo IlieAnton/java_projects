@@ -87,15 +87,15 @@ public class Lunile {
             System.out.println("Octombrie");
             System.out.println("Noiembire");
             System.out.println("Decembrie");
-        }else if (nr == 10) {
+        } else if (nr == 10) {
             System.out.println("Octombrie");
             System.out.println("Noiembire");
             System.out.println("Decembrie");
-        }else if (nr == 11) {
+        } else if (nr == 11) {
             System.out.println("Noiembire");
             System.out.println("Decembrie");
 
-        }else if (nr == 12) {
+        } else if (nr == 12) {
             System.out.println("Decembrie");
         }
     }

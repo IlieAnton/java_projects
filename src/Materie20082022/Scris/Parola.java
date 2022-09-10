@@ -9,19 +9,19 @@ public class Parola {
         JFrame app = new JFrame("Password");
 
         JTextField text = new JTextField();
-        text.setBounds(10,10,130,30);
+        text.setBounds(10, 10, 130, 30);
         app.add(text);
 
         JPasswordField passwordField = new JPasswordField();
-        passwordField.setBounds(10,50,130,30);
+        passwordField.setBounds(10, 50, 130, 30);
         app.add(passwordField);
 
         JLabel text2 = new JLabel();
-        text2.setBounds(10,150,130,30);
+        text2.setBounds(10, 150, 130, 30);
         app.add(text2);
 
         JButton button = new JButton("Afisare");
-        button.setBounds(10,100,130,30);
+        button.setBounds(10, 100, 130, 30);
         app.add(button);
         button.addActionListener(new ActionListener() {
             @Override
@@ -36,9 +36,7 @@ public class Parola {
         });
 
 
-
-
-        app.setSize(500,500);
+        app.setSize(500, 500);
         app.setLayout(null);
         app.setVisible(true);
     }

@@ -8,10 +8,10 @@ public class Forexv2 {
         char x = 'a';
         int length = a.length();
         String a2 = "";
-        for (int i = 0; i <= length-1; i = i+1) {
+        for (int i = 0; i <= length - 1; i = i + 1) {
             if (a.charAt(i) == x) {
                 a2 = a2 + ',';
-            }else{
+            } else {
                 a2 = a2 + a.charAt(i);
             }
         }

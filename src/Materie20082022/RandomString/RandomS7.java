@@ -4,9 +4,9 @@ import java.util.Random;
 
 public class RandomS7 {
     public static void main(String[] args) {
-    String cuvinte[] = {"Mere","pere","banane","Prune"};
-    char c = 'a';
-    int len = cuvinte.length;
+        String[] cuvinte = {"Mere", "pere", "banane", "Prune"};
+        char c = 'a';
+        int len = cuvinte.length;
         Random r = new Random();
         int nr = r.nextInt(len);
         if (cuvinte[nr].contains("a")) {

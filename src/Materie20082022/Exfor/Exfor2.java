@@ -7,7 +7,7 @@ public class Exfor2 {
         int sum = 0;
         Scanner scanner = new Scanner(System.in);
         int nr = scanner.nextInt();
-        for (int a = 0; a <= nr; a=a+1) {
+        for (int a = 0; a <= nr; a = a + 1) {
             sum = sum + a;
 
         }

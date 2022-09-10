@@ -18,7 +18,7 @@ public class Jucarii3 {
         c.durabilitate = false;
         c.pret = 50;
 
-        JucarieNoua grup[] = {a, b, c};
+        JucarieNoua[] grup = {a, b, c};
 
         for (int i = 0; i < grup.length; i++) {
             if (grup[i].pret > s1) {

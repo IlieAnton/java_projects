@@ -5,7 +5,7 @@ public class House {
     int nrCamere;
     Boolean areEtaj;
 
-    public  House (String zona, int nrCamere, Boolean areEtaj) {
+    public House(String zona, int nrCamere, Boolean areEtaj) {
         this.zona = zona;
         this.nrCamere = nrCamere;
         this.areEtaj = areEtaj;
@@ -25,7 +25,8 @@ public class House {
 
     void restore() {
         System.out.println("Casa fara etaj este restaurata");
-        }
+    }
+
     void paint() {
         System.out.println("Casa este zugravita");
     }

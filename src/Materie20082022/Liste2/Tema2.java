@@ -11,13 +11,13 @@ public class Tema2 {
         nr.add(4);
         nr.add(5);
         nr.add(6);
-        int l = nr.size()-1;
+        int l = nr.size() - 1;
         System.out.println(nr.get(0));
         System.out.println(nr.get(l));
         System.out.println(nr.get(1));
-        System.out.println(nr.get(l-1));
+        System.out.println(nr.get(l - 1));
         System.out.println(nr.get(2));
-        System.out.println(nr.get(l-2));
+        System.out.println(nr.get(l - 2));
 
     }
 }

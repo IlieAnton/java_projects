@@ -10,9 +10,9 @@ public class TimpTema {
         System.out.println("Dupa 10 secunde voi afisa exact ceea ce ai scris tu.");
         System.out.println("Start!");
         String s1 = s.nextLine();
-        Thread.sleep(10*1000);
+        Thread.sleep(10 * 1000);
         System.out.println("Asteapta 10 secunde ca sa ma gandesc ce ai scris:");
-        Thread.sleep(10*1000);
+        Thread.sleep(10 * 1000);
         System.out.println("Hopa, ai scris :" + s1);
 
     }

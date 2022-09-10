@@ -7,7 +7,7 @@ public class Desk {
     Boolean eDurabil;
     String proprietar;
 
-    public Desk (String material, int pret, int greutateinkg, Boolean eDurabil, String proprietar) {
+    public Desk(String material, int pret, int greutateinkg, Boolean eDurabil, String proprietar) {
         this.material = material;
         this.pret = pret;
         this.greutateinkg = greutateinkg;

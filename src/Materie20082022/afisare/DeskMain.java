@@ -8,13 +8,13 @@ public class DeskMain {
         System.out.println(d.greutateinkg);
         System.out.println(d.eDurabil);
         System.out.println("Persoana A: Cine e proprietarul?");
-        Thread.sleep(3*1000);
+        Thread.sleep(3 * 1000);
         System.out.println("Persoana B: Eu.");
-        Thread.sleep(3*1000);
+        Thread.sleep(3 * 1000);
         System.out.println("Persoana A: Care eu?");
-        Thread.sleep(3*1000);
+        Thread.sleep(3 * 1000);
         System.out.println("Persoana B: Eu, Ivan.");
-        Thread.sleep(3*1000);
+        Thread.sleep(3 * 1000);
         System.out.println("Proprietar: " + d.proprietar);
 
     }

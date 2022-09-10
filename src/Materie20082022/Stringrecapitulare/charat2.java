@@ -7,7 +7,7 @@ public class charat2 {
         int a2 = a1 - 1;
         if (a.charAt(a2) == '.') {
             System.out.println("Da, se termina cu punct");
-        }else {
+        } else {
             System.out.println("Nu, nu se termina cu punct");
         }
     }

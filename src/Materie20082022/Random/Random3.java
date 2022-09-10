@@ -8,12 +8,12 @@ public class Random3 {
         Scanner scanner = new Scanner(System.in);
         int nr = scanner.nextInt();
         Random random = new Random();
-        for (int a = 1; a <= nr; a = a+1) {
+        for (int a = 1; a <= nr; a = a + 1) {
             int nr1 = random.nextInt(10);
             System.out.println(nr1);
             if (nr1 < 8) {
                 System.out.println("Este o nota mica");
-            } else{
+            } else {
                 System.out.println("Este o nota mare");
             }
         }

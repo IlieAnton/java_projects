@@ -8,10 +8,10 @@ public class Sticle {
         int x = scanner.nextInt();
         int y = scanner.nextInt();
         //System.out.println(y/x);
-        if (y%x == 0) {
-            System.out.println(y/x);
-        }else{
-            System.out.println(y/x+1);
+        if (y % x == 0) {
+            System.out.println(y / x);
+        } else {
+            System.out.println(y / x + 1);
         }
     }
 }

@@ -14,14 +14,14 @@ public class Main {
     }
 	*/
         //for (int i = 0; i <= 50; i=i+2)
-          //  System.out.println(i/2);
+        //  System.out.println(i/2);
         //for (int i = 0; i <= 50; i=i+2) {
-         //   System.out.println(i);
+        //   System.out.println(i);
         //}
         //for (int i = 1; i <= 1000; i=i+1) {
-          //if (i%100 == 12) {
-             // System.out.println(i);
+        //if (i%100 == 12) {
+        // System.out.println(i);
 
-        }
     }
+}
 

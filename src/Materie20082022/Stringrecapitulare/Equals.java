@@ -6,7 +6,7 @@ public class Equals {
         String b = "Ana are mere.";
         if (a.equals(b)) {
             System.out.println("Da, sunt egale");
-        }else {
+        } else {
             System.out.println("Nu, nu sunt egale");
         }
     }

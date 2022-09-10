@@ -17,7 +17,7 @@ public class Tema7 {
             if (list.get(i) % 2 == 0) {
                 nrpar1 = list.get(i);
             }
-            if (list.get(i) %2 == 0 && list.get(i) < nrpar1){
+            if (list.get(i) % 2 == 0 && list.get(i) < nrpar1) {
                 nrpar2 = list.get(i);
             }
         }
@@ -27,5 +27,5 @@ public class Tema7 {
         System.out.println("Suma este " + (list.get(1) + list.get(2)));
 
     }
-    }
+}
 

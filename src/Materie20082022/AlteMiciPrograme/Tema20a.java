@@ -11,7 +11,7 @@ public class Tema20a {
         System.out.println(a);
         int b = (int) a;
         System.out.println(b);
-        int c = b %10;
+        int c = b % 10;
         System.out.println(c);
     }
 }

@@ -12,7 +12,7 @@ public class Tema5 {
         n.add(3);
         n.add(6);
         n.add(5);
-        for (int i = 0; i <= n.size() - 1; i=i+1) {
+        for (int i = 0; i <= n.size() - 1; i = i + 1) {
             if (n.get(i) % 2 == 0) {
                 nrp = nrp + n.get(i);
             } else {

@@ -14,11 +14,11 @@ public class Jucarii5 {
         c.durabilitate = false;
         c.pret = 50;
 
-        JucarieNoua grup[] = {a, b, c};
+        JucarieNoua[] grup = {a, b, c};
         int nr = 0;
         for (int i = 0; i < grup.length; i++) {
             if (grup[i].durabilitate == true) {
-                nr = nr +1;
+                nr = nr + 1;
             }
         }
         System.out.println(nr);

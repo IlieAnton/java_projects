@@ -4,7 +4,7 @@ public class Tema13a {
     public static void main(String[] args) {
         int x = 3;
         int y = 10;
-        int tripulLuiX= x *3;
-        System.out.println(tripulLuiX-y);
+        int tripulLuiX = x * 3;
+        System.out.println(tripulLuiX - y);
     }
 }

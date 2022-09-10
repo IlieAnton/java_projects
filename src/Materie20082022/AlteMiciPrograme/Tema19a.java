@@ -8,7 +8,7 @@ public class Tema19a {
         double nr = scanner.nextDouble();
         // 123,45
         int convertit = (int) nr;
-        int ultimaCifra = convertit %10;
+        int ultimaCifra = convertit % 10;
         System.out.println(ultimaCifra);
     }
 }

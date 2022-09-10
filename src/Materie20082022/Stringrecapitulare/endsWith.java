@@ -5,7 +5,7 @@ public class endsWith {
         String a = "Ana are rosii.";
         if (a.endsWith(".")) {
             System.out.println("Da, se termina cu punct");
-        }else {
+        } else {
             System.out.println("Nu, nu se termina cu punct");
         }
     }

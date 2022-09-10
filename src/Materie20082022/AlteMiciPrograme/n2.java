@@ -8,13 +8,13 @@ public class n2 {
         int n = scanner.nextInt();
         int sum = 0;
         int produs = 1;
-        for (int i = 1; i <= n; i = i+1) {
-sum = sum +i;
-         produs = produs *i;
+        for (int i = 1; i <= n; i = i + 1) {
+            sum = sum + i;
+            produs = produs * i;
 
         }
         System.out.println(sum);
-        System.out.println(produs   );
+        System.out.println(produs);
     }
 }
 

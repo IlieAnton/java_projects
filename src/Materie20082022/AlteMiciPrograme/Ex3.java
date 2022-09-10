@@ -10,7 +10,7 @@ public class Ex3 {
         int nr1 = scanner.nextInt();
         if (nr < nr1) {
             System.out.println(nr1 + " este mai mare");
-        }else{
+        } else {
             System.out.println(nr + "este mai mare");
         }
     }

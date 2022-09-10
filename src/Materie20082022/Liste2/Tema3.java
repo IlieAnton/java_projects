@@ -26,7 +26,7 @@ public class Tema3 {
         System.out.println("Max: " + max);
         System.out.println("Min: " + min);
         System.out.println("-------------------------");
-        for (int i =  0; i <= nr.size()-1; i=i+1) {
+        for (int i = 0; i <= nr.size() - 1; i = i + 1) {
             if (nr.get(i) == max) {
                 nr.get(i);
                 pmax = i;
@@ -36,14 +36,14 @@ public class Tema3 {
                 pmin = i;
             }
         }
-        p1 = pmin +2;
-        p2 = pmin+3;
-    //    p1 = p1 -1;
-    //    p2 = p1-1;
+        p1 = pmin + 2;
+        p2 = pmin + 3;
+        //    p1 = p1 -1;
+        //    p2 = p1-1;
         System.out.println("Pozitie max: " + pmax);
         System.out.println("Pozitie min: " + pmin);
-        pmin = pmin +1;
-        pmax = pmax +2;
+        pmin = pmin + 1;
+        pmax = pmax + 2;
         System.out.println("Elementele Vectorului sunt: " + pmin + " " + p1 + " " + pmax + " " + p2);
     }
 }

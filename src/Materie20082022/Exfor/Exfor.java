@@ -7,10 +7,10 @@ public class Exfor {
         Scanner scanner = new Scanner(System.in);
         int nr = scanner.nextInt();
 
-            for (int a = 0; a <= nr; a = a+1) {
-                if (a %2 == 0) {
-                    System.out.println(a);
-                }
+        for (int a = 0; a <= nr; a = a + 1) {
+            if (a % 2 == 0) {
+                System.out.println(a);
             }
         }
     }
+}

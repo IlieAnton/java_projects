@@ -5,9 +5,9 @@ public class problemaAlfabet {
         String alfa = "abcdefghijklmnoprstuvwxyz";
         String a = "abcdefghijklmnoprstuvwxyz";
         int nralfa = 0;
-        for (int i = 0; i <= alfa.length()-1; i=i+1) {
-            if (a.contains(""+alfa.charAt(i))) {
-               nralfa = nralfa+1;
+        for (int i = 0; i <= alfa.length() - 1; i = i + 1) {
+            if (a.contains("" + alfa.charAt(i))) {
+                nralfa = nralfa + 1;
             }
         }
         System.out.println(nralfa);

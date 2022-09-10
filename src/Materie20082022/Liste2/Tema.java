@@ -18,19 +18,19 @@ public class Tema {
         nr.add(4);
         nr.add(5);
         nr.add(6);
-        for (int i = 0; i <= nr.size()-1; i=i+1) {
+        for (int i = 0; i <= nr.size() - 1; i = i + 1) {
             if (nr.get(i) % 2 == 0) {
                 nrpare = nrpare + 1;
             } else {
-                nrimpare = nrimpare +1;
+                nrimpare = nrimpare + 1;
             }
         }
         System.out.println(nrpare);
         System.out.println(nrimpare);
         if (nrimpare > nrpare) {
-            System.out.println(nrimpare-nrpare);
+            System.out.println(nrimpare - nrpare);
         } else {
-            System.out.println(nrpare-nrimpare);
+            System.out.println(nrpare - nrimpare);
         }
     }
 }

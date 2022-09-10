@@ -6,7 +6,7 @@ public class lista1 {
         int[] list = {1, 5, 6, 6, 5, 1};
         int len = list.length - 1;
         Boolean ok = true;
-        for (int i = 0; i <= list.length /2; i = i + 1) {
+        for (int i = 0; i <= list.length / 2; i = i + 1) {
             if (list[i] != list[len]) {
                 ok = false;
             }
@@ -18,4 +18,4 @@ public class lista1 {
             System.out.println("Nu este oglinda");
         }
     }
-    }
+}

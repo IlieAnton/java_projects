@@ -8,8 +8,8 @@ public class Forex4 {
 
         Scanner scanner = new Scanner(System.in);
         String nr = scanner.nextLine();
-        int nr1 = nr.length()-1;
-        for (int a=nr1; a >= 0; a = a-1) {
+        int nr1 = nr.length() - 1;
+        for (int a = nr1; a >= 0; a = a - 1) {
             System.out.println(nr.charAt(a));
         }
     }

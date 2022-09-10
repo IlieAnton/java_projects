@@ -7,7 +7,7 @@ public class lastIndexOf {
         int a2 = a.lastIndexOf("b");
         if (a1 != a2) {
             System.out.println("Nu, apare doar o data");
-        }else {
+        } else {
             System.out.println("Apare doar o data");
         }
     }

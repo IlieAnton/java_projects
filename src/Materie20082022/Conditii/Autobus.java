@@ -6,11 +6,12 @@ public class Autobus {
     int nrpasageri;
     String culoare;
 
-    public Autobus(int lungime,int pret) {
+    public Autobus(int lungime, int pret) {
         this.lungime = lungime;
         this.pret = pret;
     }
-     Autobus(int lungime, String culoare) {
+
+    Autobus(int lungime, String culoare) {
         this.lungime = lungime;
         this.culoare = culoare;
 

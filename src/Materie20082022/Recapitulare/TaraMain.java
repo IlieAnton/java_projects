@@ -37,8 +37,8 @@ public class TaraMain {
             // ex 6
             if (tari[i].anFondata > 1960 && tari[i].populatie <= 200000000) {
                 System.out.println(tari[i].nume);
-            //    System.out.println(tari[i].populatie);
-             //   System.out.println(tari[i].anFondata);
+                //    System.out.println(tari[i].populatie);
+                //   System.out.println(tari[i].anFondata);
             }
             //  System.out.println(tari.length);
             //  System.out.println(nrtari);

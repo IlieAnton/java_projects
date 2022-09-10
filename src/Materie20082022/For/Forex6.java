@@ -5,8 +5,8 @@ public class Forex6 {
         String a = "Andrei are masini";
         int a1 = a.length();
         int E = 0;
-        for (int b = 0; b <= a1-1; b = b+1) {
-            if (a.charAt(b) == 'e')  {
+        for (int b = 0; b <= a1 - 1; b = b + 1) {
+            if (a.charAt(b) == 'e') {
                 E = E + 1;
 
             }

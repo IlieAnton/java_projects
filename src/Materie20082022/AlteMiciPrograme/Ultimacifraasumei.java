@@ -8,8 +8,8 @@ public class Ultimacifraasumei {
         int nr = scan.nextInt();
         int nr1 = scan.nextInt();
         int sumnr = nr + nr1;
-        sumnr = sumnr %10;
-      //  sumnr = sumnr 10;
+        sumnr = sumnr % 10;
+        //  sumnr = sumnr 10;
         System.out.println(sumnr);
     }
 }

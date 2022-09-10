@@ -5,6 +5,6 @@ public class Tema4 {
         int globuriAlb = 14;
         int globuriRosii = globuriAlb * 2;
         int globuriVerzi = globuriRosii - 3;
-        System.out.println(globuriAlb+globuriRosii+globuriVerzi);
+        System.out.println(globuriAlb + globuriRosii + globuriVerzi);
     }
 }

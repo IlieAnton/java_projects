@@ -13,12 +13,12 @@ public class Ex1 {
         // ex 1
         int l = list.size() - 1;
         System.out.println(list.get(l));
-        System.out.println( "ex 2-------------------------");
+        System.out.println("ex 2-------------------------");
 
         // ex 2
-         for (int i = 0; i <= l; i=i+1) {
-             System.out.println(list.get(i));
-         }
+        for (int i = 0; i <= l; i = i + 1) {
+            System.out.println(list.get(i));
+        }
 
     }
 }

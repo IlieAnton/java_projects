@@ -5,9 +5,9 @@ public class Afiseazacelmaimare {
         int a = 54;
         int b = 53;
 
-        if (a>b) {
+        if (a > b) {
             System.out.println(a);
-        }else {
+        } else {
             System.out.println(b);
         }
     }

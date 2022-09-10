@@ -7,13 +7,12 @@ public class Forex9 {
         int vocale = 0;
         int consoane = 0;
 
-        for (int a2 = 0; a2 <= lungime-1; a2=a2+1) {
+        for (int a2 = 0; a2 <= lungime - 1; a2 = a2 + 1) {
             int g = a.charAt(a2);
             if (g == 'a' || g == 'e' || g == 'i' || g == 'o' || g == 'u') {
 
                 vocale++;
-            }
-            else if (a.charAt(a2) != ' ' ){
+            } else if (a.charAt(a2) != ' ') {
                 consoane++;
             }
         }

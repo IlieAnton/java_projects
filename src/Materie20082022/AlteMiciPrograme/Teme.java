@@ -9,9 +9,9 @@ public class Teme {
 
         Scanner scanner = new Scanner(System.in);
         int nr = scanner.nextInt();
-        if (nr %2 == 0 ) {
+        if (nr % 2 == 0) {
             System.out.println(nr + " este un Materie20082022.AlteMiciPrograme.numar par");
-        }else {
+        } else {
             System.out.println(nr + " este un Materie20082022.AlteMiciPrograme.numar impar");
         }
     }

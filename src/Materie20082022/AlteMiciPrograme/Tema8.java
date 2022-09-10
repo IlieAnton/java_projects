@@ -5,6 +5,6 @@ public class Tema8 {
         int catei = 3;
         int pisici = catei * 2;
         int gaini = pisici * 2;
-        System.out.println(catei+pisici+gaini);
+        System.out.println(catei + pisici + gaini);
     }
 }

@@ -5,7 +5,7 @@ public class Blank {
         String a = " ";
         if (a.isBlank()) {
             System.out.println("Este gol");
-        }else {
+        } else {
             System.out.println("Nu este gol");
         }
     }

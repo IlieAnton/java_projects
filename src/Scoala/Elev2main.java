@@ -12,7 +12,7 @@ public class Elev2main {
         int notemici5 = 0;
         int suma = 0;
         int media = 0;
-        
+
         Nota n1 = new Nota(10, "Sport");
         gigel.note.add(n1);
         Nota n2 = new Nota(10, "Engleza");

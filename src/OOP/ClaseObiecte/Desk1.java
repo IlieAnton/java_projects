@@ -7,13 +7,14 @@ public class Desk1 {
     Boolean eDurabil;
     int nrsertare;
 
-    public  Desk1(int pret, int nrpicioare, String material, Boolean eDurabil, int nrsertare) {
+    public Desk1(int pret, int nrpicioare, String material, Boolean eDurabil, int nrsertare) {
         this.pret = pret;
         this.nrpicioare = nrpicioare;
         this.material = material;
         this.eDurabil = eDurabil;
         this.nrsertare = nrsertare;
     }
+
     void destroy() {
         System.out.println("Biroul se autodistruge ....");
     }

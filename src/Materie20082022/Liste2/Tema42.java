@@ -11,11 +11,11 @@ public class Tema42 {
         a.add(7);
         int max = a.get(0);
         int min = a.get(0);
-        for (int i = 0; i <= a.size()-1; i=i+1) {
+        for (int i = 0; i <= a.size() - 1; i = i + 1) {
             if (a.get(i) > max) {
                 max = a.get(i);
             }
-               if (a.get(i) < min) {
+            if (a.get(i) < min) {
                 min = a.get(i);
             }
         }

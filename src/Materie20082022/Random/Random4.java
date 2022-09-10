@@ -4,7 +4,6 @@ import java.util.Random;
 import java.util.Scanner;
 
 
-
 public class Random4 {
     public static void main(String[] args) {
         Random random = new Random();
@@ -27,14 +26,14 @@ public class Random4 {
             } else if (nr1 == a2) {
                 System.out.println("BOOM!");
                 break;
-            }
-            else if (nr1 < nr) {
+            } else if (nr1 < nr) {
                 System.out.println("Mai Mare");
             } else if (a == 5) {
                 System.out.println("Nu ai castigat");
             } else if (nr1 > nr) {
                 System.out.println("Mai mic");
-            } if (a == 5) {
+            }
+            if (a == 5) {
                 System.out.println("Nu ai castigat");
             }
         }

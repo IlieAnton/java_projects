@@ -5,7 +5,7 @@ public class startsWith {
         String a = "ana are mere";
         if (a.startsWith("A")) {
             System.out.println("Da, incepe cu A");
-        }else {
+        } else {
             System.out.println("Nu, nu incepe cu A");
         }
     }

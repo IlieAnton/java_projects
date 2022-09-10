@@ -9,7 +9,7 @@ public class Tema11si12a {
         int zile = 31;
         int transportToateC1 = c1 * ct1;
         int transportToateC2 = c2 * ct2;
-        int toateCamionele = transportToateC1+transportToateC2;
+        int toateCamionele = transportToateC1 + transportToateC2;
         int toatecamioneleinnzile = toateCamionele * zile;
         System.out.println("Pot transporta " + toatecamioneleinnzile + " kg");
     }

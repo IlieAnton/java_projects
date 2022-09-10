@@ -2,15 +2,15 @@ package Materie20082022.Clasaobiect;
 
 public class Laptop2 {
     public static void main(String[] args) {
-         Laptop a = new Laptop();
-         a.brand = "Dell";
-         a.hdd  = "bun";
-         a.isexpenive = true;
-         a.isOn = true;
-         a.numarnuclee = 1;
-         a.pret = 120000;
-         a.isexpenive = true;
-         a.os = "KnightsOS";
+        Laptop a = new Laptop();
+        a.brand = "Dell";
+        a.hdd = "bun";
+        a.isexpenive = true;
+        a.isOn = true;
+        a.numarnuclee = 1;
+        a.pret = 120000;
+        a.isexpenive = true;
+        a.os = "KnightsOS";
         System.out.println(a.brand);
         System.out.println(a.hdd);
         System.out.println(a.isexpenive);

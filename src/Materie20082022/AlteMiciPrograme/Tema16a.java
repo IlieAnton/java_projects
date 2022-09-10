@@ -6,7 +6,7 @@ public class Tema16a {
         int oi = 20;
         int capeteoi = oi;
         int capetegaini = gaini;
-        int picioaregaini = gaini *2;
-        int picioareoi = oi *4;
+        int picioaregaini = gaini * 2;
+        int picioareoi = oi * 4;
     }
 }

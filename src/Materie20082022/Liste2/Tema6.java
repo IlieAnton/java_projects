@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Tema6 {
     public static void main(String[] args) {
-        int suma =0;
+        int suma = 0;
         ArrayList<Integer> n = new ArrayList<>();
         n.add(1);
         n.add(2);
@@ -24,8 +24,8 @@ public class Tema6 {
 
             }
         }
-        for (int e = nr; e <= ni; e =e+1) {
-           suma = suma+n.get(e);
+        for (int e = nr; e <= ni; e = e + 1) {
+            suma = suma + n.get(e);
         }
         System.out.println(suma);
     }

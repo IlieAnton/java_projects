@@ -5,7 +5,7 @@ public class Tema9 {
         int Fete = 10;
         int Baieti = 12;
         int zile = 31;
-        System.out.println( Fete * 3 * zile  + Baieti * 2 * zile);
+        System.out.println(Fete * 3 * zile + Baieti * 2 * zile);
 
     }
 }

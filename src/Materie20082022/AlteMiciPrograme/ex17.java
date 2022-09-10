@@ -5,13 +5,13 @@ public class ex17 {
         int a = 3;
         int b = 4;
         char c = '-';
-        if (c =='+') {
+        if (c == '+') {
             System.out.println(a + b);
-        }else if (c == '-'){
+        } else if (c == '-') {
             System.out.println(b - a);
-        }else if (c == '*'){
+        } else if (c == '*') {
             System.out.println(a * b);
-        }else if (c == '/'){
+        } else if (c == '/') {
             System.out.println(a / b);
         }
     }

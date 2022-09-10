@@ -10,19 +10,19 @@ public class ScrisTema {
         JFrame app = new JFrame("Calculator");
 
         JTextField a1 = new JTextField();
-        a1.setBounds(10,10,130,30);
+        a1.setBounds(10, 10, 130, 30);
         app.add(a1);
 
         JTextField a2 = new JTextField();
-        a2.setBounds(10,40,130,30);
+        a2.setBounds(10, 40, 130, 30);
         app.add(a2);
 
         JTextField a3 = new JTextField();
-        a3.setBounds(10,70,130,30);
+        a3.setBounds(10, 70, 130, 30);
         app.add(a3);
 
         JButton button = new JButton("calculeaza");
-        button.setBounds(10,120,130,30);
+        button.setBounds(10, 120, 130, 30);
         app.add(button);
         JLabel text = new JLabel();
         text.setBounds(10, 160, 130, 30);
@@ -43,9 +43,9 @@ public class ScrisTema {
                     text.setText("Rezultatul este: " + (i - i1));
                 } else if (simbol.equals("*")) {
                     text.setText("Rezultatul este: " + (i * i1));
-                } else if  (simbol.equals("/")) {
+                } else if (simbol.equals("/")) {
                     text.setText("Rezultatul este: " + (i / i1));
-            }else {
+                } else {
                     text.setText("eroare");
                 }
                 app.setVisible(false);
@@ -55,7 +55,7 @@ public class ScrisTema {
             }
         });
         app.setLayout(null);
-        app.setSize(500,500);
+        app.setSize(500, 500);
         app.setVisible(false);
         app.setVisible(true);
 

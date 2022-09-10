@@ -21,7 +21,7 @@ public class Aplicatiemuzeu {
             System.out.println("Cate bilete de copil doriti sa cumparati?");
             int nr2 = scanner.nextInt();
             int b = nr2 * 5;
-            int c = a+b;
+            int c = a + b;
             System.out.println("Biletele cumparate costa: " + c);
         }
         if (nr == 2) {
@@ -32,13 +32,11 @@ public class Aplicatiemuzeu {
             int sapt = scanner.nextInt();
             if (sapt == 1) {
                 System.out.println("In urmatoarea saptamana se va tine o expozitie de obiecte ale culturilor apartinand triburilor din Africa");
-            }
-            else if (sapt == 2) {
+            } else if (sapt == 2) {
                 System.out.println("In a doua saptamana se va tine o expozitie de schelete de reptile preistorice");
-            }
-            else if (sapt == 3) {
+            } else if (sapt == 3) {
                 System.out.println("In a treia saptamana se va tine o expozitite de unelte din cupru");
-            }else {
+            } else {
                 System.out.println("Inca nu cunoastem programul acelei saptamiani.");
             }
         }
