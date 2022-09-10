@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Elev2main {
     public static void main(String[] args) {
-        Elev gigel = new Elev("Gogu", "Gigel", 13, "6B");
+        Elev gigel = new Elev("Gogy", "Gigel", 13, "6B");
         Scanner scanner = new Scanner(System.in);
 
         int note9 = 0;
