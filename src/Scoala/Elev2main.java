@@ -12,6 +12,8 @@ public class Elev2main {
         int notemici5 = 0;
         int suma = 0;
         int media = 0;
+        int media2 = 0;
+        int suma2 = 0;
 
         Nota n1 = new Nota(10, "Sport");
         gigel.note.add(n1);
@@ -56,7 +58,14 @@ public class Elev2main {
             if (ceaMaiMareNota < nota.valoare) {
                 ceaMaiMareNota = nota.valoare;
             }
+            if (ceaMaiMicaNota > nota.valoare) {
+                ceaMaiMicaNota = nota.valoare;
+            }
+            if (gigel.note.get(i).valoare < 9 && gigel.note.get(i).valoare > 5) {
+                suma = gigel.note.get(i).valoare;
+            }
             System.out.println(note9);
+            System.out.println();
             System.out.println("Note mai mari decat cinci: " + notemare5);
             notemici5 = gigel.note.size() - notemare5;
             System.out.println("Note mai mici decat cinci: " + notemici5);
@@ -64,6 +73,8 @@ public class Elev2main {
             media = media + suma / gigel.note.size();
             System.out.println(media);
             System.out.println("Cea mai mare nota este: " + ceaMaiMareNota);
+            System.out.println("Cea mai mica nota este: " + ceaMaiMicaNota);
+            System.out.println(media2/2);
         }
     }
 }
